@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-socket",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Billy",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cookie-storage": "^3.1.0",
+    "feathers": "^2.2.3",
+    "feathers-authentication-client": "^0.3.2",
+    "feathers-client": "^2.4.0",
+    "feathers-hooks": "^2.1.2",
+    "feathers-socketio": "^2.0.1",
+    "feathers-vuex": "^1.1.1",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.20.1",
+    "node-sass": "^4.7.2",
+    "nuxt": "^1.3.0",
+    "sass-loader": "^6.0.6",
+    "socket.io-client": "^2.0.4",
+    "vee-validate": "^2.0.0-rc.26",
+    "vuetify": "^0.17.4"
+
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
